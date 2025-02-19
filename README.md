@@ -42,9 +42,6 @@ A simple and interactive **Tic-Tac-Toe** game built using **Java** and **XML** i
 4. **Run the App:**  
    Choose an emulator or connected device and hit **Run ▶️**.
 
-   Tic-Tac-Toe/app
-/screenshots/
-
 ## 📷 Screenshots
 
 ### 🚀 Start Interface
