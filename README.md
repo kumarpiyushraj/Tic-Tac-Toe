@@ -42,6 +42,32 @@ A simple and interactive **Tic-Tac-Toe** game built using **Java** and **XML** i
 4. **Run the App:**  
    Choose an emulator or connected device and hit **Run ▶️**.
 
+   Tic-Tac-Toe/app
+/screenshots/
+
+## 📷 Screenshots
+
+### 🚀 Start Interface
+![Start Interface](app/screenshots/Picture_1.jpg)
+
+### ℹ️ About Section
+![About Section](app/screenshots/Picture_2.jpg)
+
+### 🔀 Select Mode
+![Select Mode](app/screenshots/Picture_3.jpg)
+
+### 👤 Enter Player Name and Select Symbol
+![Select Symbol](app/screenshots/Picture_4.jpg)
+
+### 🤖 Winner Computer
+![Winnner Computer](app/screenshots/Picture_5.jpg)
+
+### 🧑‍💻 Winner Player
+![Winner Player](app/screenshots/Picture_6.jpg)
+
+### 🤝 Game Draw
+![Game Draw](app/screenshots/Picture_7.jpg)
+
 ## 🧮 Gameplay Logic
 
 - **Turn-Based System** — Alternates between Player X and Player O.  
