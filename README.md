@@ -48,25 +48,25 @@ A simple and interactive **Tic-Tac-Toe** game built using **Java** and **XML** i
 ## 📷 Screenshots
 
 ### 🚀 Start Interface
-![Start Interface](app/screenshots/Picture_1.jpg)
+![Start Interface](app/screenshots/Picture_1.png)
 
 ### ℹ️ About Section
-![About Section](app/screenshots/Picture_2.jpg)
+![About Section](app/screenshots/Picture_2.png)
 
 ### 🔀 Select Mode
-![Select Mode](app/screenshots/Picture_3.jpg)
+![Select Mode](app/screenshots/Picture_3.png)
 
 ### 👤 Enter Player Name and Select Symbol
-![Select Symbol](app/screenshots/Picture_4.jpg)
+![Select Symbol](app/screenshots/Picture_4.png)
 
 ### 🤖 Winner Computer
-![Winnner Computer](app/screenshots/Picture_5.jpg)
+![Winnner Computer](app/screenshots/Picture_5.png)
 
 ### 🧑‍💻 Winner Player
-![Winner Player](app/screenshots/Picture_6.jpg)
+![Winner Player](app/screenshots/Picture_6.png)
 
 ### 🤝 Game Draw
-![Game Draw](app/screenshots/Picture_7.jpg)
+![Game Draw](app/screenshots/Picture_7.png)
 
 ## 🧮 Gameplay Logic
 
