@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layer1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/namesymbol_back"
+    tools:context=".NameSymbol">
+
+    <ViewFlipper
+        android:id="@+id/selectOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="@id/layer1"
+        app:layout_constraintLeft_toLeftOf="@id/layer1"
+        app:layout_constraintRight_toRightOf="@id/layer1"
+        app:layout_constraintTop_toTopOf="@id/layer1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/VFLayout"
+            android:layout_width="250dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <TextView
+                android:id="@+id/selectMode"
+                android:layout_width="match_parent"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/days_one"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-2"
+                android:background="@drawable/title_bkg"
+                android:shadowRadius="3"
+                android:text="Select Mode"
+                android:textAlignment="center"
+                android:textColor="#B7B5FF"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="@+id/VFLayout"
+                app:layout_constraintRight_toRightOf="@+id/VFLayout"
+                app:layout_constraintTop_toTopOf="@+id/VFLayout" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/pvc"
+                app:layout_constraintLeft_toLeftOf="@id/VFLayout"
+                app:layout_constraintRight_toLeftOf="@id/radiogroup1"
+                app:layout_constraintTop_toTopOf="@id/radiogroup1" />
+
+            <ImageView
+                android:id="@id/icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="22dp"
+                android:src="@drawable/pvp"
+                app:layout_constraintBottom_toBottomOf="@id/radiogroup1"
+                app:layout_constraintLeft_toLeftOf="@id/VFLayout"
+                app:layout_constraintRight_toLeftOf="@id/radiogroup1" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layoutDirection="rtl"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@id/ContinueButton"
+                app:layout_constraintRight_toRightOf="@id/selectMode"
+                app:layout_constraintTop_toBottomOf="@id/selectMode">
+
+                <RadioButton
+                    android:id="@+id/rbpvc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/checkbox_button_design"
+                    android:fontFamily="@font/red_rose"
+                    android:padding="20dp"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDy="-2"
+                    android:shadowRadius="3"
+                    android:text="Player  vs\nComputer"
+                    android:textAlignment="center"
+                    android:textColor="#FFAE00"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rbpvp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/checkbox_button_design"
+                    android:fontFamily="@font/red_rose"
+                    android:padding="20dp"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDy="-2"
+                    android:shadowRadius="3"
+                    android:text="Player  vs\nPlayer"
+                    android:textAlignment="center"
+                    android:textColor="#FFAE00"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/ContinueButton"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/continue_button"
+                android:fontFamily="@font/aldrich"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="10dp"
+                android:paddingTop="1dp"
+                android:paddingEnd="10dp"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:text="Continue"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18.5sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/VFLayout"
+                app:layout_constraintLeft_toLeftOf="@id/VFLayout"
+                app:layout_constraintRight_toRightOf="@id/VFLayout"
+                app:layout_constraintTop_toBottomOf="@id/radiogroup1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/layer1"
+            app:layout_constraintLeft_toLeftOf="@id/layer1"
+            app:layout_constraintRight_toRightOf="@+id/layer1"
+            app:layout_constraintTop_toTopOf="@id/layer1">
+
+            <TextView
+                android:id="@+id/tx1"
+                android:layout_width="wrap_content"
+                android:paddingStart="5dp"
+                android:paddingEnd="8dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/days_one"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-2"
+                android:shadowRadius="3"
+                android:text="Enter Name"
+                android:background="@drawable/title_bkg"
+                android:textAlignment="center"
+                android:textColor="#B7B5FF"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/layer2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@id/layer2"
+                app:layout_constraintTop_toTopOf="@id/layer2" />
+
+            <TextView
+                android:id="@+id/tx2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/artifika"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-2"
+                android:shadowRadius="5"
+                android:text="@string/player_1"
+                android:textAlignment="center"
+                android:textColor="#FFAE00"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/et1"
+                app:layout_constraintLeft_toLeftOf="@id/tx1"
+                app:layout_constraintRight_toLeftOf="@id/et1"
+                app:layout_constraintTop_toBottomOf="@id/tx1" />
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="wrap_content"
+                android:layout_height="55sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/custom_background"
+                android:digits=" .abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:fontFamily="@font/lexend_light"
+                android:hint="Enter your name"
+                android:inputType="textMultiLine"
+                android:maxLength="12"
+                android:maxWidth="170sp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-3"
+                android:shadowRadius="1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintLeft_toRightOf="@id/tx2"
+                app:layout_constraintRight_toRightOf="@id/tx1"
+                app:layout_constraintTop_toBottomOf="@id/tx1" />
+
+            <TextView
+                android:id="@+id/tx3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/artifika"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-2"
+                android:shadowRadius="5"
+                android:text="@string/player_2"
+                android:textAlignment="center"
+                android:textColor="#FFAE00"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/et2"
+                app:layout_constraintLeft_toLeftOf="@id/tx2"
+                app:layout_constraintRight_toLeftOf="@id/et2"
+                app:layout_constraintTop_toBottomOf="@id/tx2" />
+
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="wrap_content"
+                android:layout_height="55sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="18.5dp"
+                android:background="@drawable/custom_background"
+                android:digits=" .abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:fontFamily="@font/lexend_light"
+                android:hint="Enter your name"
+                android:inputType="textMultiLine"
+                android:maxLength="12"
+                android:maxWidth="170sp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-3"
+                android:shadowRadius="1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintLeft_toRightOf="@id/tx3"
+                app:layout_constraintRight_toRightOf="@id/et1"
+                app:layout_constraintTop_toBottomOf="@id/et1" />
+
+            <TextView
+                android:id="@+id/tx4"
+                android:layout_width="wrap_content"
+                android:paddingStart="7dp"
+                android:paddingEnd="8dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/title_bkg"
+                android:fontFamily="@font/days_one"
+                android:paddingRight="1dp"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-2"
+                android:shadowRadius="3"
+                android:text="Choose Symbols"
+                android:textAlignment="center"
+                android:textColor="#B7B5FF"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/layer2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@id/layer2"
+                app:layout_constraintTop_toBottomOf="@id/et2" />
+
+            <TextView
+                android:id="@+id/tx5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/artifika"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-2"
+                android:shadowRadius="5"
+                android:text="Player 1"
+                android:textColor="#FFAE00"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="@id/rg1"
+                app:layout_constraintRight_toRightOf="@id/rg1"
+                app:layout_constraintTop_toBottomOf="@id/tx4" />
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="@id/layer2"
+                app:layout_constraintRight_toRightOf="@id/layer2"
+                app:layout_constraintTop_toBottomOf="@id/tx5">
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:button="@drawable/checkbox_button_design"
+                    android:fontFamily="@font/archivo_bold"
+                    android:padding="5dp"
+                    android:shadowColor="@color/text_shadow_white"
+                    android:shadowDy="-1"
+                    android:shadowRadius="1"
+                    android:text="X"
+                    android:textColor="#F2071B"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="28dp"
+                    android:button="@drawable/checkbox_button_design"
+                    android:fontFamily="@font/archivo_bold"
+                    android:padding="5dp"
+                    android:shadowColor="@color/text_shadow_white"
+                    android:shadowDy="-1"
+                    android:shadowRadius="1"
+                    android:text="O"
+                    android:textColor="#FF3e59c7"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tx6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/artifika"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-2"
+                android:shadowRadius="5"
+                android:text="Player 2"
+                android:textColor="#FFAE00"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="@id/rg2"
+                app:layout_constraintRight_toRightOf="@id/rg2"
+                app:layout_constraintTop_toBottomOf="@id/rg1" />
+
+            <RadioGroup
+                android:id="@+id/rg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="@id/layer2"
+                app:layout_constraintRight_toRightOf="@id/layer2"
+                app:layout_constraintTop_toBottomOf="@id/tx6">
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:button="@drawable/checkbox_button_design"
+                    android:fontFamily="@font/archivo_bold"
+                    android:padding="5dp"
+                    android:shadowColor="@color/text_shadow_white"
+                    android:shadowDy="-1"
+                    android:shadowRadius="1"
+                    android:text="X"
+                    android:textColor="#F2071B"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rb4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="28dp"
+                    android:button="@drawable/checkbox_button_design"
+                    android:fontFamily="@font/archivo_bold"
+                    android:padding="5dp"
+                    android:shadowColor="@color/text_shadow_white"
+                    android:shadowDy="-1"
+                    android:shadowRadius="1"
+                    android:text="O"
+                    android:textColor="#FF3e59c7"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/continue_button"
+                android:fontFamily="@font/aldrich"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="10dp"
+                android:paddingTop="1dp"
+                android:paddingEnd="10dp"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDy="-2"
+                android:shadowRadius="1"
+                android:text="Play Game"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="@id/layer2"
+                app:layout_constraintRight_toRightOf="@id/layer2"
+                app:layout_constraintTop_toBottomOf="@id/rg2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ViewFlipper>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

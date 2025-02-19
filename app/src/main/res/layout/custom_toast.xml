@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CustomToast"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toastbackground"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/toastText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15.4dp"
+        app:layout_constraintBottom_toBottomOf="@id/CustomToast"
+        app:layout_constraintLeft_toLeftOf="@id/CustomToast"
+        app:layout_constraintRight_toRightOf="@id/CustomToast"
+        app:layout_constraintTop_toTopOf="@id/CustomToast" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

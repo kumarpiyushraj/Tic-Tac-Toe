@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/alertdialog_back</item>
+        <item name="android:textColor">#FFBF00</item>
+        <item name="android:textSize">17.5sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/red_rose</item>
+        <item name="android:textColorPrimary">#00FF55</item>
+    </style>
+</resources>

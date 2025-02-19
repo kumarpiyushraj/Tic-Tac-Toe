@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="gameover">GAME DRAW !!</string>
+    <string name="x_turn">X\'s Turn</string>
+    <string name="o_turn">O\'s Turn</string>
+    <string name="description1">Forget that pen-and-paper, this Tic-Tac-Toe game app is what you might be looking for.</string>
+    <string name="description2">Key Features:\n◉ User-friendly with intuitive design.\n◉ Two different playing modes.\n◉ Shows the names of the players with their respective scores.\n◉ Specifies each player\'s turn.\n◉ While playing the game, players have the option to reset the score or board independently.</string>
+    <string name="description3">Challenge your friends or explore different strategies to outmaneuver your opponents and win the game!</string>
+    <string name="developers">Developers</string>
+    <string name="toe">Toe</string>
+    <string name="hyphen">-</string>
+    <string name="tac">Tac</string>
+    <string name="tic">Tic</string>
+    <string name="about">About</string>
+    <string name="start">START</string>
+    <string name="todo">TODO</string>
+    <string name="share_the_app">Share the App</string>
+    <string name="toastMessage">Share option is currently not available.</string>
+    <string name="player">Player</string>
+    <string name="computer">Computer</string>
+    <string name="board_is_already_set_to_play">The board is set for play.</string>
+    <string name="scores_are_already_0">Scores are set to 0.</string>
+    <string name="game_logo">game_logo</string>
+    <string name="priyanshu_raj">Priyanshu Raj</string>
+    <string name="manish_kumar_gupta">Manish Kumar Gupta</string>
+    <string name="rizwan_ahmad_khan">Rizwan Ahmad Khan</string>
+    <string name="kumar_piyush_raj">Kumar Piyush Raj</string>
+    <string name="starting_background">starting_background</string>
+    <string name="replay_game">RESET BOARD</string>
+    <string name="reset_score">RESET SCORE</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="back_arrow">back_arrow</string>
+    <string name="score_0">Score - 0</string>
+</resources>

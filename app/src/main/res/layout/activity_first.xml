@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".First">
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/starting_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/klm4" />
+
+    <ImageView
+        android:layout_width="440sp"
+        android:layout_height="100sp"
+        android:minWidth="420sp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:minHeight="80sp"
+        android:paddingEnd="10dp"
+        android:paddingStart="1dp"
+        android:src="@drawable/tictactoe"
+        android:adjustViewBounds="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="115dp"
+        android:layout_height="52dp"
+        android:background="@drawable/start_button"
+        android:fontFamily="@font/aldrich"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="@string/start"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="21.6dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/popup_menu_design"
+        android:contentDescription="@string/todo"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/baseline_menu_24"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

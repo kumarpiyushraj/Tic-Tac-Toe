@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:resizeableActivity="false"
+        android:theme="@style/Theme.TicTacToe"
+        tools:targetApi="31">
+        <activity
+            android:name=".AboutActivity"
+            android:configChanges="density|smallestScreenSize|screenLayout|screenSize|fontScale|orientation"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.TicTacToe_About" />
+        <activity
+            android:name=".Starting"
+            android:configChanges="density|smallestScreenSize|screenLayout|screenSize|fontScale|orientation"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.TicTacToe_Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NameSymbol"
+            android:configChanges="density|smallestScreenSize|screenLayout|screenSize|fontScale|orientation"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".First"
+            android:configChanges="density|smallestScreenSize|screenLayout|screenSize|fontScale|orientation"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".GameBoard"
+            android:configChanges="density|smallestScreenSize|screenLayout|screenSize|fontScale|orientation"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".GameBoardSinglePlayer"
+            android:configChanges="density|smallestScreenSize|screenLayout|screenSize|fontScale|orientation"
+            android:exported="false"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BasePopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">#FFB23C</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">@font/arvo</item>
+        <item name="android:itemBackground">@drawable/item_design</item>
+    </style>
+</resources>
