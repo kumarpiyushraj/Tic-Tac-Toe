@@ -30,7 +30,7 @@ A simple and interactive **Tic-Tac-Toe** game built using **Java** and **XML** i
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe-android.git
+   git clone https://github.com/kumarpiyushraj/Tic-Tac-Toe.git
    ```
 
 2. **Open in Android Studio:**  
