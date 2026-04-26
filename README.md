@@ -34,7 +34,7 @@
 <!--  STATS STRIP                                                            -->
 <!---------------------------------------------------------------------------->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020f1a,100:043d5c&height=90&text=Dual%20Game%20Modes%20%C2%B7%20Position-Aware%20AI%20%C2%B7%208%20Win-Line%20Overlays%20%C2%B7%20Score%20Tracking%20%C2%B7%209%20Sound%20Effects&fontSize=14&fontColor=a5f0fc&fontAlignY=35&desc=Lottie%20Splash%20%E2%80%94%20Custom%20Snackbars%20%26%20Toasts%20%E2%80%94%2010%20Custom%20Fonts%20%E2%80%94%20Material%20Design%20UI&descSize=13&descColor=e0f7ff&descAlignY=68" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020f1a,100:043d5c&height=90&text=Dual%20Game%20Modes%20%C2%B7%20Position-Aware%20AI%20%C2%B7%208%20Win-Line%20Overlays%20%C2%B7%20Score%20Tracking%20%C2%B7%209%20Sound%20Effects&fontSize=14&fontColor=a5f0fc&fontAlignY=35&desc=Lottie%20Splash%20%E2%80%94%20Custom%20Snackbars%20%2526%20Toasts%20%E2%80%94%2010%20Custom%20Fonts%20%E2%80%94%20Material%20Design%20UI&descSize=13&descColor=e0f7ff&descAlignY=68" width="100%"/>
 
 <br/><br/>
 
