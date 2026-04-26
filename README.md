@@ -416,7 +416,7 @@ Every interaction in the app is paired with a dedicated audio track. Nine `Media
 <!--  GAME MECHANICS & BOARD DESIGN                                          -->
 <!---------------------------------------------------------------------------->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:043d5c,100:020f1a&height=64&text=%F0%9F%95%B9%EF%B8%8F%20%20Game%20Mechanics%20%26%20Board%20Design&fontSize=22&fontColor=a5f0fc&fontAlignY=52&fontAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:043d5c,100:020f1a&height=64&text=%F0%9F%95%B9%EF%B8%8F%20%20Game%20Mechanics%20%26amp%3B%20Board%20Design&fontSize=22&fontColor=a5f0fc&fontAlignY=52&fontAlign=50" width="100%"/>
 
 <br/>
 
@@ -488,7 +488,7 @@ App Launch
 
 <a name="architecture--tech-stack"></a>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a7fa3,100:020f1a&height=64&text=%F0%9F%8F%97%EF%B8%8F%20%20Architecture%20%26%20Tech%20Stack&fontSize=22&fontColor=7eeeff&fontAlignY=52&fontAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a7fa3,100:020f1a&height=64&text=%F0%9F%8F%97%EF%B8%8F%20%20Architecture%20%26amp%3B%20Tech%20Stack&fontSize=22&fontColor=7eeeff&fontAlignY=52&fontAlign=50" width="100%"/>
 
 <br/>
 
